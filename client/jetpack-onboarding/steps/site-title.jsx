@@ -40,7 +40,7 @@ class JetpackOnboardingSiteTitleStep extends React.PureComponent {
 		);
 
 		return (
-			<Main>
+			<Main className="jetpack-onboarding-steps__site-title">
 				<FormattedHeader headerText={ headerText } subHeaderText={ subHeaderText } />
 
 				<Card>
